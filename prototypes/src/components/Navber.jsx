@@ -32,13 +32,3 @@ export default function Navber(props){
   )
 }
 
-Navber.propTypes = {
-  title:PropTypes.string.isRequired, 
-  aboutText: PropTypes.string
-}
-
-navbar.defaultProps = {
-  title: "Set Title Here",
-  aboutText: "About Text here"
-};
-
